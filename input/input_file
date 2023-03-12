@@ -1,0 +1,13 @@
+create_airport_parking_building 200,500,100
+park motorcycle
+park motorcycle
+park motorcycle
+park car
+park suv
+park car
+unpark ABCM0 0,0,55
+unpark ABCM1 0,14,59
+unpark ABCM2 1,12,0
+unpark ABCC0 0,0,50
+unpark ABCC1 0,23,59
+unpark ABCC2 3,1,0 

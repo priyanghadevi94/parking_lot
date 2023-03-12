@@ -1,0 +1,40 @@
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+    3.2.0
+
+* Deployment instructions
+
+    * clone the repo
+    * bundle install
+
+* Run tests
+
+    * command -  ruby main.rb input/input_file
+
+    * Inside input folder, input_file - file which contains input data to execute. It contains all the problem statement examples
+       
+       * create_airport_parking_building 200,500,100 - command to create a type of parking lot followed by number of maximum slots for motorcyle/car/bus type, with a space between them
+       
+       * park motorcycle - command to park a vehicle in the previously created parking lot. It returns unique token, slot id, entry time for the parked vehicle
+
+       * unpark ABCM0 0,0,55 - command to unpark a vehicle. Input consists of parking token and (day,hour,minutes) time after which the vehicle needs to be unparked, with a space between them. It returns entry,exit time, token and total fee 
+
+    * unit tests are covered in spec/ folder
+
+
+Additonal Info:
+
+    * Parking Building and Vehicle are separate classes. ParkingBuilding is further inherited to create different types of parking building like Mall, Stadium, Airport etc
+
+    * Separate Service folder which contains fee generator services. It accepts vehicle's entry, exit times and vehicle type to calculate the total fees. As there are different types of fee models, separate classes are added which can be extended in future.
+
+    * Parking Building class holds initialize, park, unpark as primary actions and fee model is dynamically fetched from specific type of parking building to calculate the total fee.
+
+
+
