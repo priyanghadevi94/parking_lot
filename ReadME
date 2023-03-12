@@ -10,7 +10,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-    * clone the repo
+    * clone the repo. move to master branch.
     * bundle install
 
 * Run tests
