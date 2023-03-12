@@ -1,3 +1,28 @@
+create_mall_parking_building 2,0,0
+park car
+park motorcycle
+park scooter
+park scooter
+unpark ABCM1 0,0,56
+park suv
+park motorcycle
+unpark ABCM0 0,3,40
+create_mall_parking_building 100,80,10
+park motorcycle
+park car
+park truck
+unpark ABCM0 0,3,30
+unpark ABCC0 0,6,1
+unpark ABCB0 0,1,59
+create_stadium_parking_building 1000,1500
+park motorcycle
+park motorcycle
+park suv
+park suv
+unpark ABCM1 0,14,59
+unpark ABCC1 0,13,5
+unpark ABCM0 0,3,40
+unpark ABCC0 0,11,30
 create_airport_parking_building 200,500,100
 park motorcycle
 park motorcycle
